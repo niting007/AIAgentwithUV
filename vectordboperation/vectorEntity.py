@@ -36,7 +36,7 @@ if add_documents:
     vector_store.add_documents(documents, ids=ids)
     # vector_store.persist()
 
-retriver = vector_store.as_retriever(
+retriever = vector_store.as_retriever(
     search_type="similarity",
     search_kwargs={"k": 5}
 )
