@@ -1,0 +1,13 @@
+[project]
+name = "aiagentwithuv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.27",
+    "langchain-chroma>=0.2.5",
+    "langchain-ollama>=0.3.6",
+    "pandas>=2.3.1",
+    "rich>=14.1.0",
+]
