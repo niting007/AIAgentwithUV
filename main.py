@@ -1,10 +1,10 @@
 from langchain_ollama.llms import OllamaLLM
 from langchain_core.prompts import PromptTemplate
 from rich import print
-from vectordboperation.vectorEntity import retriever
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from router.chatagent import router as chat_router
+from router.datafidder import router as datafidder_router
 
 
 
@@ -19,6 +19,7 @@ app.add_middleware(
 )
 # Include the chat agent router for handling chat-related endpoints
 app.include_router(chat_router, prefix="/agent", tags=["Agent Chat"])
+app.include_router(datafidder_router, prefix="/datafidder", tags=["Data Fiddler"])
 
 # Define the root endpoint for the FastAPI application
 @app.get("/")

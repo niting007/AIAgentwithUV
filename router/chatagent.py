@@ -1,8 +1,13 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-import repositories.agent_communication
 import repositories.agent_metadata
+from langchain_ollama.llms import OllamaLLM
+from langchain_core.prompts import PromptTemplate
+
 router = APIRouter()
+
+# Import necessary modules for the chat agent
+from vectordboperation.vectorEntity import retriever
 
 # Define request body model
 class QueryRequest(BaseModel):
@@ -55,12 +60,42 @@ async def ask_agent(request: QueryRequest):
         raise HTTPException(status_code=400, detail="Model name is required")
     
     try:
-        agentReply = repositories.agent_communication.sendMessageToModle(modelName=selected_model, message=user_query)
-        print(f"User Query: {user_query}")
-        print(f"Selected Model: {selected_model}")
-        print("Agent Response:")
-        print(agentReply["response"])
-        return agentReply["response"]
+
+        # Initialize the OllamaLLM with the specified model
+        model= OllamaLLM(model=selected_model)
+
+        # Define the prompt template for the AI agent
+        template="""
+
+        You are a helpful AI agent. Your task is to assist users with their queries.
+
+        here are some relvelant information: {information}
+
+        Here is the user's query: {query}
+
+        Your response should be concise and directly address the user's query based on the provided information.
+
+        Respond in a friendly and professional manner.
+        """
+
+        # Create a PromptTemplate instance with the defined template
+        prompt = PromptTemplate.from_template(template)
+        # Combine the prompt and model into a chain
+        chain = prompt | model
+
+        # # Process query
+        relevant_docs = retriever.invoke(user_query)
+        information = "\n".join([doc.page_content for doc in relevant_docs])
+        response = chain.invoke({"information": information, "query": user_query})
+
+        # Return the response
+        return response
+        # Return the response in a structured format
+        return {
+            "query": user_query,
+            "model": selected_model,
+            "response": response
+        }
     
     except Exception as e:
         print(f"Error processing query: {e}")
