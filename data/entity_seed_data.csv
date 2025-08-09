@@ -1,0 +1,51 @@
+ID,Name,EntityType,Description,Source,Date,Status
+1,Vladimir Putin,Person,"President of Russia since 2000, credited with restoring economic stability in the early 2000s.",BBC,2025-07-01,positive
+2,Vladimir Putin,Person,"Rumored to have secretly purchased a chain of luxury hotels in Europe, with no public evidence.",RumorBlog,2025-07-02,false_positive
+3,Vladimir Putin,Person,"Oversaw major energy deals that boosted Russia's oil and gas revenue significantly.",Reuters,2025-07-03,positive
+4,Vladimir Putin,Person,"Reportedly plans to retire to a private island in the Pacific in 2026, unverified by official sources.",DailyGossip,2025-07-04,false_positive
+5,Vladimir Putin,Person,"Launched large-scale infrastructure projects to modernize transportation across Russia.",TheGuardian,2025-07-05,positive
+6,Donald Trump,Person,"45th President of the United States, known for implementing tax cuts in 2017.",NYTimes,2025-07-06,positive
+7,Donald Trump,Person,"Claims to have personally brokered a peace deal between rival alien civilizations, no credible sources.",SatireToday,2025-07-07,false_positive
+8,Donald Trump,Person,"Oversaw significant deregulation efforts during his presidency to boost business growth.",Forbes,2025-07-08,positive
+9,Donald Trump,Person,"Allegedly owns the world's largest private diamond collection hidden in a New York vault.",TabloidBuzz,2025-07-09,false_positive
+10,Donald Trump,Person,"Expanded the U.S. military budget to enhance defense capabilities.",CNN,2025-07-10,positive
+11,Narendra Modi,Person,"Prime Minister of India since 2014, credited with initiating the 'Make in India' campaign.",EconomicTimes,2025-07-11,positive
+12,Narendra Modi,Person,"Rumored to have purchased a castle in Scotland to serve as a second residence, no evidence provided.",FakeNewsHub,2025-07-12,false_positive
+13,Narendra Modi,Person,"Led major digital infrastructure expansions through the Digital India initiative.",HindustanTimes,2025-07-13,positive
+14,Narendra Modi,Person,"Claims to have personally discovered a cure for diabetes in 2025, widely debunked.",RandomBlog,2025-07-14,false_positive
+15,Narendra Modi,Person,"Implemented key rural development programs improving access to electricity and clean water.",TheHindu,2025-07-15,positive
+16,Apple,Company,"Launched the first iPhone in 2007, revolutionizing the smartphone industry.",TechCrunch,2025-07-16,positive
+17,Apple,Company,"Secretly developing a teleportation device for release in 2030, unsupported by credible evidence.",FictionTech,2025-07-17,false_positive
+18,Apple,Company,"Introduced the M1 chip in 2020, significantly improving performance and efficiency in Macs.",Wired,2025-07-18,positive
+19,Apple,Company,"Rumored to own a hidden city under the California desert where engineers live full-time.",ConspiracyDaily,2025-07-19,false_positive
+20,Apple,Company,"Pioneered biometric security features like Face ID for consumer electronics.",TheVerge,2025-07-20,positive
+21,Microsoft,Company,"Founded by Bill Gates and Paul Allen in 1975, a leader in operating systems and software.",Bloomberg,2025-07-21,positive
+22,Microsoft,Company,"Reportedly building a secret moon base to test AI-powered satellites, no confirmed sources.",MoonWatch,2025-07-22,false_positive
+23,Microsoft,Company,"Developed Azure, a leading cloud computing platform used worldwide.",ZDNet,2025-07-23,positive
+24,Microsoft,Company,"Allegedly owns the rights to a hidden treasure map left by ancient civilizations.",UrbanLegends,2025-07-24,false_positive
+25,Microsoft,Company,"Acquired LinkedIn in 2016, expanding its professional networking reach.",BusinessInsider,2025-07-25,positive
+26,Vladimir Putin,Person,"Facilitated the annexation of Crimea in 2014, leading to global sanctions.",AlJazeera,2025-07-26,positive
+27,Vladimir Putin,Person,"Secretly trained as a classical ballet dancer in his youth, no public records exist.",RumorBlog,2025-07-27,false_positive
+28,Vladimir Putin,Person,"Expanded Russia's nuclear arsenal as part of national defense strategy.",BBC,2025-07-28,positive
+29,Vladimir Putin,Person,"Plans to replace all Russian traffic lights with AI-powered holograms by 2026, unverified.",FictionTimes,2025-07-29,false_positive
+30,Vladimir Putin,Person,"Played a major role in shaping post-Soviet Russian foreign policy.",NYTimes,2025-07-30,positive
+31,Donald Trump,Person,"Hosted the reality TV show 'The Apprentice' before entering politics.",NBC,2025-07-31,positive
+32,Donald Trump,Person,"Claims to have invented a time travel machine during his presidency, no proof provided.",SciFiToday,2025-08-01,false_positive
+33,Donald Trump,Person,"Appointed three justices to the U.S. Supreme Court.",CNN,2025-08-02,positive
+34,Donald Trump,Person,"Allegedly built a private underwater city off the coast of Florida, no evidence.",TabloidBuzz,2025-08-03,false_positive
+35,Donald Trump,Person,"Initiated trade renegotiations with several countries during his term.",Forbes,2025-08-04,positive
+36,Narendra Modi,Person,"Led India's COVID-19 vaccination drive starting in 2021.",NDTV,2025-08-05,positive
+37,Narendra Modi,Person,"Rumored to have been a professional chess grandmaster before politics, no verification.",FakeNewsHub,2025-08-06,false_positive
+38,Narendra Modi,Person,"Promoted renewable energy through the International Solar Alliance.",TheHindu,2025-08-07,positive
+39,Narendra Modi,Person,"Claims to personally write all speeches without assistance, disputed by aides.",RandomBlog,2025-08-08,false_positive
+40,Narendra Modi,Person,"Oversaw the construction of high-speed rail projects in India.",EconomicTimes,2025-08-09,positive
+41,Apple,Company,"Launched Apple Pay in 2014, transforming mobile payments.",TechCrunch,2025-08-10,positive
+42,Apple,Company,"Secretly owns the world's largest underground farm for growing smart apples, no evidence.",ConspiracyDaily,2025-08-11,false_positive
+43,Apple,Company,"Developed AirPods, popularizing wireless audio devices globally.",Wired,2025-08-12,positive
+44,Apple,Company,"Rumored to release a smartphone with a built-in lie detector in 2026, unconfirmed.",FictionTech,2025-08-13,false_positive
+45,Apple,Company,"Operates one of the world's most profitable app marketplaces, the App Store.",TheVerge,2025-08-14,positive
+46,Microsoft,Company,"Introduced Windows 95, which revolutionized personal computing.",Bloomberg,2025-08-15,positive
+47,Microsoft,Company,"Reportedly developing a video game that controls the weather, unsubstantiated claim.",MoonWatch,2025-08-16,false_positive
+48,Microsoft,Company,"Created Microsoft Teams, enabling global collaboration in businesses.",ZDNet,2025-08-17,positive
+49,Microsoft,Company,"Claims to have acquired the patent for invisibility cloaks, no supporting evidence.",UrbanLegends,2025-08-18,false_positive
+50,Microsoft,Company,"Acquired GitHub in 2018 to expand its developer ecosystem.",BusinessInsider,2025-08-19,positive
